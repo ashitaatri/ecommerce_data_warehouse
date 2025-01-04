@@ -49,10 +49,10 @@ This project demonstrates the design and implementation of an e-commerce data wa
 ## Example Queries
 ### Total Sales by Year
 ```sql
-SELECT Year, SUM(TotalAmount) AS TotalSales
+SELECT DD.Year, SUM(TotalAmount) AS TotalSales
 FROM Fact.FactSales FS
 JOIN Dimension.DimDate DD ON FS.DateID = DD.DateID
-GROUP BY Year;
+GROUP BY DD.Year;
 ```
 
 ### Best-Selling Products

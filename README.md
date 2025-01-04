@@ -40,7 +40,7 @@ This project demonstrates the design and implementation of an e-commerce data wa
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce-data-warehouse.git
+   git clone [https://github.com/your-username/ecommerce-data-warehouse.git](https://github.com/ashitaatri/ecommerce_data_warehouse.git)
    ```
 2. Open `ecommerce_data_warehouse.sql` in SSMS.
 3. Execute the script to create the database, schemas, tables, and sample data.
